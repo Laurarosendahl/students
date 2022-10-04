@@ -13,7 +13,7 @@ self.addEventListener("install", function(event) {
                 "/students/morten.png", 
                 "/students/nina.png", 
                 "/students/olivia.png",
-                "/student/laura.jpeg"
+                "/student/laura.png"
             ]);
         })
     )
