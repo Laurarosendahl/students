@@ -16,7 +16,15 @@
     <div id="error"></div>
 
     <!-- <script src="data.js"></script> -->
-
+<script>
+    if ('serviceWorker' in navigator) {
+  console.log("Serviceworker is available")
+  navigator.serviceWorker.register("/students/serviceworker.js")
+}
+else {
+  console.log("Not available")
+}
+</script>
     <script src="javascript.js"></script>
 </body>
 

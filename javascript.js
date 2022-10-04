@@ -1,10 +1,4 @@
-if ('serviceWorker' in navigator) {
-  console.log("Serviceworker is available")
-  navigator.serviceWorker.register("/students/serviceworker.js")
-}
-else {
-  console.log("Not available")
-}
+
 
 
 
