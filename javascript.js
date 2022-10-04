@@ -1,7 +1,4 @@
 
-
-
-
 fetch("members.json")
   .then(function (data) {
     return data.json();

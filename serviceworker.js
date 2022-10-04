@@ -4,8 +4,16 @@ const cacheName = 'cache-students';
 self.addEventListener("install", function(event) {
     event.waitUntil(
         caches.open(cacheName).then(function(cache) {
-            return cache.addAll(["/students/", "/students/index.html",  "/students/javascript.js","/students/members.json", 
-            "/students/mystyle.css", "/students/morten.png", "/students/nina.png", "/students/olivia.png"]);
+            return cache.addAll([
+                "/students/", 
+                "/students/index.html",  
+                "/students/javascript.js",
+                "/students/members.json", 
+                "/students/mystyle.css", 
+                "/students/morten.png", 
+                "/students/nina.png", 
+                "/students/olivia.png"
+            ]);
         })
     )
 })
